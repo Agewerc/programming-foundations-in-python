@@ -10,7 +10,3 @@ A program to calculate your `nerdscore` and `nerdrating` based on how many thigs
 `nerdScore.py`: A function where the nerd score is calculated if the inputs are correct and otherwise warn the user about which inputs are not appropriate;
 
 `findClass.py`: A function that classifies a list of students in nerd classes, according to their nerd scores and returns how many students fit in each class. This code was developed on Python 3.7 on Windows.
-
-## The Algorithm
-
-![Imgur](https://github.com/Agewerc/programming-foundations-in-python/blob/master/nerd-score-calculator/Fluxogram.png)
