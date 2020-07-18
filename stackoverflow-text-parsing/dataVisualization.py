@@ -5,7 +5,7 @@
 # Module of Data Visualization
 # Creates a function to visualise words distribution from posts and one to see the quantity of posts across quarters
 
-from parser_29961246 import Parser
+from parser import Parser
 import matplotlib.pyplot as plt
 import numpy as np
 

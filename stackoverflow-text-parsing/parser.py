@@ -6,7 +6,7 @@
 # There are two imports in this script: The regex library and the function preprocessLine imported from the first script
 
 import re
-from preprocessData_29961246 import preprocessLine
+from preprocessData import preprocessLine
 
 class Parser:
 
