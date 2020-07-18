@@ -13,4 +13,4 @@ A program to calculate your `nerdscore` and `nerdrating` based on how many thigs
 
 ## The Algorithm
 
-! [Imgur](https://i.imgur.com/qsTDPbB.png)
+! [Imgur](https://github.com/Agewerc/programming-foundations-in-python/blob/master/nerd-score-calculator/Fluxogram.png)
