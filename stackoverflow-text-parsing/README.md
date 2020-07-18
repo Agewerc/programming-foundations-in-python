@@ -15,7 +15,7 @@ Python libraries required:
 
 `preprocessData.py:` Module of Data pre-processing: Defines one function of pre-processing and one function to read the data, pre-process it and save .txt files with the answers and questions from all posts in .xml file.
 
-`parser.py:` The class Parser is used to easily parse and deal with given rows of the data representing posts in XML format. Some useful methods are defined and explained below, allowing the user to easily get the type, ID, date quarter, cleaned body and vocabulary size of the post. A string overloading method is also defined to allow proper printing of the object instances of this class.
+`XMLparser.py:` The class Parser is used to easily parse and deal with given rows of the data representing posts in XML format. Some useful methods are defined and explained below, allowing the user to easily get the type, ID, date quarter, cleaned body and vocabulary size of the post. A string overloading method is also defined to allow proper printing of the object instances of this class.
 
 `dataVisualization.py:` The dataVisualization module defines two functions, one to visualize the vocabulary size distribution and the other to visualize the post number trend.
 
@@ -43,11 +43,10 @@ Use the functions:
 
 Here, we define the inputFile as the XML with all posts and outputImage as the name of the image to be produced and saved in the present working directory. The plot will be a bar plot representing the vocabulary size distribution across all posts. Each bar represents the amount of posts that contain a certain range of distinct words in its body.
 
-![viz1](https://github.com/Agewerc/programming-foundations-in-python/blob/master/stackoverflow-text-parsing/output/postNumberTrend.png)
+![viz1](https://github.com/Agewerc/programming-foundations-in-python/blob/master/stackoverflow-text-parsing/output/wordNumberDistribution.png)
 
 `visualizePostNumberTrend(inputFile, outputImage)`
 
 Again, we define the inputFile as the XML with all posts and outputImage as the name of the image to be produced and saved in the present working directory. The plot will be a line chart with two lines: a red one representing the name of questions posted in each quarter, and a blue on representing the number of answers posted in one quarter.
 
-
-![viz1](https://github.com/Agewerc/programming-foundations-in-python/blob/master/stackoverflow-text-parsing/output/wordNumberDistribution.png)
+![viz1](https://github.com/Agewerc/programming-foundations-in-python/blob/master/stackoverflow-text-parsing/output/postNumberTrend.png)

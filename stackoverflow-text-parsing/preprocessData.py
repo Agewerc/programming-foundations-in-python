@@ -10,7 +10,6 @@
 # Regular Expressions is the only library used in this script
 import re
 
-
 def preprocessLine(inputLine):
 	# pre process the data in each line
 
@@ -74,8 +73,8 @@ def splitFile(inputFile, outputFile_question, outputFile_answer):
 
 if __name__ == "__main__":
 
-	f_data = "data.xml"
-	f_question = "question.txt"
-	f_answer = "answer.txt"
+	f_data = "data\\data.xml"
+	f_question = "output\\question.txt"
+	f_answer = "output\\answer.txt"
 
 	splitFile(f_data, f_question, f_answer)

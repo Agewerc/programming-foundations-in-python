@@ -5,7 +5,7 @@
 # Module of Data Visualization
 # Creates a function to visualise words distribution from posts and one to see the quantity of posts across quarters
 
-from parser import Parser
+from XMLparser import Parser
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -122,9 +122,9 @@ def visualizePostNumberTrend(inputFile, outputImage):
 
 if __name__ == "__main__":
 
-	f_data = "data.xml"
-	f_wordDistribution = "wordNumberDistribution.png"
-	f_postTrend = "postNumberTrend.png"
+	f_data = "data\data.xml"
+	f_wordDistribution = "output\wordNumberDistribution.png"
+	f_postTrend = "output\postNumberTrend.png"
 	
 	visualizeWordDistribution(f_data, f_wordDistribution)
 	visualizePostNumberTrend(f_data, f_postTrend)
