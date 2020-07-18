@@ -12,8 +12,3 @@ Some of the knowledge exposed in this projects:
 3. Data Structures, Collective Data Types and Control Structures
 4. Concepts of Decomposition and Abstract Data Types
 
-
-
-## The algorithm is the following:
-
-![viz1](https://github.com/Agewerc/programming-foundations-in-python/tree/master/nerd-score-calculator/Fluxogram.png)
