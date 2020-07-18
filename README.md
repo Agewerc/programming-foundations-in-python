@@ -11,10 +11,3 @@ Some of the knowledge exposed in this projects:
 2. File Manipulation, Testing and Exception Handling
 3. Data Structures, Collective Data Types and Control Structures
 4. Concepts of Decomposition and Abstract Data Types
-
-
-Some of the knowledge exposed in this projects:
-1. Object Oriented Programming
-2. File Manipulation, Testing and Exception Handling
-3. Data Structures, Collective Data Types and Control Structures
-4. Concepts of Decomposition and Abstract Data Types
